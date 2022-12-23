@@ -36,8 +36,7 @@ following are the hyperparameters that are set:
 - per_gpu_train_batch_size 1   
 - gradient_accumulation_steps 24 
 - learning_rate 5e-06 
-- num_train_epochs 10.0 
-- output_dir Checkpoints/${TASK_NAME}_SVO/${MODEL_NAME} 
+- num_train_epochs 10.0  
 - logging_steps 200 
 - save_steps 200 
 - adam_betas "(0.9, 0.98)" 
@@ -45,7 +44,7 @@ following are the hyperparameters that are set:
 - no_clip_grad_norm 
 - warmup_proportion 0.1 
 - weight_decay 0.01 
-- overwrite_output_dir
+
 
 ## How to run?
 
@@ -65,7 +64,17 @@ TASK_NAME = logiqa
 
 The accuracies of the "FOCAL REASONER" model on the dev sets are stored in the folder "Checkpoints", with test results stored in "test_pred.npy"
 
+## Program_files folder
+
+Project related program files(running of program) are stored in this folder.
+
+## Project_Snaps folder
+
+Accuracy/Performance/Analysis graphs & project related screenshots are stored in this folder. 
+
 ## Wandb folder
 
 Logs and summaries of various metrics, hyper-parameters, and the outputs from the training runs are stored in th e wandb folder.
+
+
 
