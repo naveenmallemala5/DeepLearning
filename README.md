@@ -10,7 +10,7 @@ This is the code for our paper "Fact-driven Logical Reasoning".
 - dgl=0.6.1
 - transformers=4.3.2
 
-
+astala visha
 
 #### How to run?
 
