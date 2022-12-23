@@ -1,5 +1,5 @@
 # Fact-Based Logical Reasoning
-This is code for the project "Fact-Based Logical Reasoning".
+This is the code for the project "Fact-Based Logical Reasoning".
 
 
 
